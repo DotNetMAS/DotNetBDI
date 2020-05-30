@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="NetBDI.Core.Agent&lt;TAction, TAgent, TEnvironment&gt;">
+    <Position X="5.25" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAEAIACIEA4DCQAAQAEAAAACBQAAAAAJAGCAQCAAGA=</HashCode>
+      <FileName>Agent.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_commitmentType" />
+      <Property Name="BeliefBase" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Desires" />
+      <Property Name="CurrentIntentions" />
+      <Property Name="Actions" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="NetBDI.Core.Belief">
+    <Position X="11.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAQAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Belief.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBDI.Core.BeliefBase">
+    <Position X="9.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQACAAAAAAAAAAAEAAAAAgiAAAAAIAAAAAA=</HashCode>
+      <FileName>BeliefBase.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_beliefs" />
+      <Field Name="_beliefSets" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="NetBDI.Core.BeliefSet">
+    <Position X="12.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAQAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>BeliefSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBDI.Core.Desire&lt;TAction, TAgent, TEnvironment&gt;">
+    <Position X="0.5" Y="1.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAGAAAAAAAAAAAEAAACBAABQgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Desire.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetBDI.Core.Intention&lt;TAction, TAgent, TEnvironment&gt;">
+    <Position X="0.5" Y="5.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAABAABAAAUgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Intention.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Desire" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="NetBDI.STRIPS.Action">
+    <Position X="9" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="NetBDI.Core.IEnvironment" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IEnvironment.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="NetBDI.Core.CommitmentType">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAABAAAAAA=</HashCode>
+      <FileName>CommitmentType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>NetBDI.STRIPS</id>
+    <version>0.0.0.4</version>
+    <title>NetBDI.STRIPS</title>
+    <description>A STRIPS planner implementation in .NET Core capable of finding a plan or an optimal plan for a given goal and given actions.</description>
+    <authors>Maarten Borms and Koen Plasmans</authors>
+    <owners>Maarten Borms and Koen Plasmans</owners>
+    <projectUrl>https://github.com/DotNetMAS/DotNetBDI</projectUrl>
+    <license type="expression">MIT</license>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>First release of base functionality.</releaseNotes>
+    <tags>bdi .net core net strips planning mas multi-agent system agent</tags>
+    <copyright>Copyright 2020</copyright>
+  </metadata>
+</package>

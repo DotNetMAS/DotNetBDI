@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>NetBDI.Core</id>
+    <version>0.0.0.4</version>
+    <title>NetBDI.Core</title>
+    <description>A BDI implementation in .NET Core for simulating behavior of agents in an environment</description>
+    <authors>Maarten Borms and Koen Plasmans</authors>
+    <owners>Maarten Borms and Koen Plasmans</owners>
+    <projectUrl>https://github.com/DotNetMAS/DotNetBDI</projectUrl>
+    <license type="expression">MIT</license>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>First release of base functionality.</releaseNotes>
+    <tags>bdi .net core net planning mas multi-agent system agent desire intention belief</tags>
+    <copyright>Copyright 2020</copyright>
+    <dependencies>
+       <dependency id="NetBDI.STRIPS" version="[0.0.0.4, )" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\netstandard2.0\NetBDI.Core.dll" target="lib\netstandard2.0" />
+  </files>
+</package>
